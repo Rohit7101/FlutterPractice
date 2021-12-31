@@ -18,6 +18,7 @@ import 'package:google_fonts/google_fonts.dart';
 
         return MaterialApp(
               themeMode: ThemeMode.light,
+              debugShowCheckedModeBanner: false,
               theme: ThemeData(
                 primarySwatch:Colors.green,
                 fontFamily: GoogleFonts.lato().fontFamily
