@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_catalog/widgets/drawer.dart';
 
 class HomePage extends StatelessWidget {
  final int days = 30;
@@ -10,11 +11,11 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         title: Text("Catalog App")),
       body:Center(
-        child:Container(
+        child:  Container(
         child: Text("Welcome to $days days of flutter in $name"),
       ),
       ),
-      drawer: Drawer(),
+      drawer: MyDrawer(),
     );
   }
 }
